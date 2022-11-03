@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="conteudo">
+        <section class="linha">
+            <img src="./imagens/logo.png" alt="logo da empresa XPTO" width="200px" />
+
+            <nav>
+                <ul>
+                    <li>
+                        <a class="botao" href="inicio.html">
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botao botao-destaque" href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+    </header>
+
+    <main class="conteudo">
+        <section class="linha sobre">
+            <article>
+                <h1>Contato</h1>
+                <h2>Landing Page</h2>
+                <p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Justo donec enim diam vulputate ut pharetra sit amet.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Justo donec enim diam vulputate ut pharetra sit amet.
+                </p>
+            </article>
+
+            <fieldset>
+                <form id="frmInscricao" action="contato.php" method="POST">
+
+                    <div class="agrupamento">
+                        <label class="rotulo">Nome: </label><br>
+                        <input class="entrada" type="text" required="required" id="txtNome" maxlength="100" size="50"><br><br>
+                    </div>
+                    
+                    <div class="agrupamento">
+                        <label class="rotulo">Data de Nascimento:</label><br>
+                        <input class="entrada" type="date" required="required" id="txtDataNascimento"><br><br>
+                    </div>
+
+                    <div class="agrupamento">
+                        <label class="rotulo">Celular:</label><br>
+                        <input class="entrada" type="tel" id="txtCelular" required="required" size="50" maxlength="15" placeholder="(##) #####-####"><br><br>
+                    </div>
+                    
+                    <div class="agrupamento">
+                        <label class="rotulo">Email:</label>
+                        <input class="entrada" type="email" required="required" id="txtEmail" size="50"><br><br>
+                    </div>
+
+                    <div class="agrupamento">
+                        <label class="rotulo">Mensagem:</label><br>
+                        <textarea class="entrada mensagem" required="required" cols="50" rows="5"></textarea><br><br>
+                    </div>
+
+                    <div class="agrupamento-botao">
+                        <input class="botao botao-destaque" type="submit" id="btEnviar" value="Enviar" />
+                    </div>
+
+                </form>
+
+            </fieldset>
+                
+        </section>
+    </main>
+    
+
+    <footer class="conteudo">
+        <ul class="linha">
+            <li>
+                <a href="#">
+                    <img src="./imagens/logo-insta.png" alt="instagram" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./imagens/logo-twitter.png" alt="Twitter" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./imagens/logo-facebook.png" alt="Facebook" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
